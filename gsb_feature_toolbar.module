@@ -1,7 +1,5 @@
 <?php
 /**
  * @file
- * Code for the GSB Feature Toolbar feature.
+ * Drupal needs this blank file.
  */
-
-include_once 'gsb_feature_toolbar.features.inc';
