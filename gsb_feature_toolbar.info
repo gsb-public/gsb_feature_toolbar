@@ -1,0 +1,16 @@
+name = GSB Feature Toolbar
+core = 7.x
+package = GSB
+version = 7.x-1.0
+project = gsb_feature_toolbar
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = quickbar
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[menu_custom][] = menu-section-editor
+features[menu_custom][] = menu-section-manager
+features[variable][] = quickbar_role_menus
+features[variable][] = quickbar_role_weights
