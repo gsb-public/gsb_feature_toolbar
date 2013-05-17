@@ -84,11 +84,11 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'weight' => -50,
     'parent_path' => 'admin/workbench',
   );
-  // Exported menu link: menu-section-editor-toolbar:node/add
-  $menu_links['menu-section-editor-toolbar:node/add'] = array(
+  // Exported menu link: menu-section-editor-toolbar:admin/workbench/create
+  $menu_links['menu-section-editor-toolbar:admin/workbench/create'] = array(
     'menu_name' => 'menu-section-editor-toolbar',
-    'link_path' => 'node/add',
-    'router_path' => 'node/add',
+    'link_path' => 'admin/workbench/create',
+    'router_path' => 'admin/workbench/create',
     'link_title' => 'Add Content',
     'options' => array(
       'attributes' => array(
@@ -119,7 +119,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
-    'parent_path' => 'node/add',
+    'parent_path' => 'admin/workbench/create',
   );
   // Exported menu link: menu-section-editor-toolbar:user/logout
   $menu_links['menu-section-editor-toolbar:user/logout'] = array(
