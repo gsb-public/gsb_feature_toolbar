@@ -10,15 +10,15 @@
 function gsb_feature_toolbar_menu_default_menu_custom() {
   $menus = array();
 
-  // Exported menu: menu-section-editor.
-  $menus['menu-section-editor'] = array(
-    'menu_name' => 'menu-section-editor',
+  // Exported menu: menu-section-editor-toolbar.
+  $menus['menu-section-editor-toolbar'] = array(
+    'menu_name' => 'menu-section-editor-toolbar',
     'title' => 'Section Editor',
     'description' => '',
   );
-  // Exported menu: menu-section-manager.
-  $menus['menu-section-manager'] = array(
-    'menu_name' => 'menu-section-manager',
+  // Exported menu: menu-section-manager-toolbar.
+  $menus['menu-section-manager-toolbar'] = array(
+    'menu_name' => 'menu-section-manager-toolbar',
     'title' => 'Section Manager',
     'description' => '',
   );
