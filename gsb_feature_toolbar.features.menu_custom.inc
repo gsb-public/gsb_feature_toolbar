@@ -10,6 +10,12 @@
 function gsb_feature_toolbar_menu_default_menu_custom() {
   $menus = array();
 
+  // Exported menu: menu-marketing.
+  $menus['menu-marketing'] = array(
+    'menu_name' => 'menu-marketing',
+    'title' => 'Marketing',
+    'description' => '',
+  );
   // Exported menu: menu-section-editor-toolbar.
   $menus['menu-section-editor-toolbar'] = array(
     'menu_name' => 'menu-section-editor-toolbar',
@@ -24,6 +30,7 @@ function gsb_feature_toolbar_menu_default_menu_custom() {
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Marketing');
   t('Section Editor');
   t('Section Manager');
 

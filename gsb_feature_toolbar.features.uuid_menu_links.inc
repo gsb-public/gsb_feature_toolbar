@@ -10,6 +10,101 @@
 function gsb_feature_toolbar_uuid_menu_default_menu_links() {
   $uuid_menu_links = array();
 
+  // Exported menu link: menu-marketing:<front>
+  $uuid_menu_links['menu-marketing:<front>'] = array(
+    'router_path' => '',
+    'link_title' => 'Home',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'uuid_link_path' => '<front>',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
+  // Exported menu link: menu-marketing:admin/workbench
+  $uuid_menu_links['menu-marketing:admin/workbench'] = array(
+    'router_path' => 'admin/workbench',
+    'link_title' => 'My Workbench',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -49,
+    'uuid_link_path' => 'admin/workbench',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
+  // Exported menu link: menu-marketing:admin/workbench/content/all
+  $uuid_menu_links['menu-marketing:admin/workbench/content/all'] = array(
+    'router_path' => 'admin/workbench/content/all',
+    'link_title' => 'All Recent Content',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'uuid_link_path' => 'admin/workbench/content/all',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'admin/workbench',
+  );
+  // Exported menu link: menu-marketing:admin/workbench/content/edited
+  $uuid_menu_links['menu-marketing:admin/workbench/content/edited'] = array(
+    'router_path' => 'admin/workbench/content/edited',
+    'link_title' => 'My Edits',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'uuid_link_path' => 'admin/workbench/content/edited',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'admin/workbench',
+  );
+  // Exported menu link: menu-marketing:admin/workbench/create
+  $uuid_menu_links['menu-marketing:admin/workbench/create'] = array(
+    'router_path' => 'admin/workbench/create',
+    'link_title' => 'Add Content',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 0,
+    'uuid_link_path' => 'admin/workbench/create',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $uuid_menu_links['menu-section-editor-toolbar:<front>'] = array(
     'router_path' => '',
