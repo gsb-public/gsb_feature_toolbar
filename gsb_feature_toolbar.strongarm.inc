@@ -24,7 +24,6 @@ function gsb_feature_toolbar_strongarm() {
     'fa' => '0',
     'cwo_admin' => '0',
     'marketing_admin' => 'menu-marketing',
-    'mba:10018' => '0',
   );
   $export['quickbar_role_menus'] = $strongarm;
 
@@ -42,7 +41,6 @@ function gsb_feature_toolbar_strongarm() {
     'fa' => '-4',
     'cwo_admin' => '-7',
     'marketing_admin' => '-10',
-    'mba:10018' => '-6',
   );
   $export['quickbar_role_weights'] = $strongarm;
 
