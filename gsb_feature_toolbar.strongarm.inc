@@ -14,15 +14,86 @@ function gsb_feature_toolbar_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'quickbar_role_menus';
-  $strongarm->value = 'a:10:{i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:27:"menu-section-editor-toolbar";i:5;s:28:"menu-section-manager-toolbar";i:7;s:1:"0";i:6;s:1:"0";i:8;s:1:"0";i:9;s:14:"menu-marketing";i:10;s:1:"0";}';
+  $strongarm->value = array(
+    'anonymous-user' => '0',
+    'authenticated-user' => '0',
+    'administrator' => '0',
+    'section-editor' => 'menu-section-editor-toolbar',
+    'section-manager' => 'menu-section-manager-toolbar',
+    'aa' => '0',
+    'fa' => '0',
+    'cwo_admin' => '0',
+    'marketing_admin' => 'menu-marketing',
+    'mba:10018' => '0',
+  );
   $export['quickbar_role_menus'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'quickbar_role_weights';
-  $strongarm->value = 'a:10:{i:1;s:1:"0";i:2;s:1:"0";i:3;s:1:"0";i:4;s:1:"0";i:5;s:1:"0";i:7;s:1:"0";i:6;s:1:"0";i:8;s:1:"0";i:9;s:1:"0";i:10;s:1:"0";}';
+  $strongarm->value = array(
+    'anonymous-user' => '-2',
+    'authenticated-user' => '-3',
+    'administrator' => '-1',
+    'section-editor' => '-8',
+    'section-manager' => '-9',
+    'aa' => '-5',
+    'fa' => '-4',
+    'cwo_admin' => '-7',
+    'marketing_admin' => '-10',
+    'mba:10018' => '-6',
+  );
   $export['quickbar_role_weights'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'quickbar_settings_marketing_admin';
+  $strongarm->value = array(
+    'iconset' => '_none',
+    'sticky' => 1,
+    'float' => 0,
+    'secondary_menu_visibility' => 1,
+    'nofollow' => 0,
+    'expandnodeadd' => 1,
+  );
+  $export['quickbar_settings_marketing_admin'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'quickbar_settings_section-editor';
+  $strongarm->value = array(
+    'iconset' => '_none',
+    'sticky' => 1,
+    'float' => 0,
+    'secondary_menu_visibility' => 1,
+    'nofollow' => 0,
+    'expandnodeadd' => 1,
+  );
+  $export['quickbar_settings_section-editor'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'quickbar_settings_section-manager';
+  $strongarm->value = array(
+    'iconset' => '_none',
+    'sticky' => 1,
+    'float' => 0,
+    'secondary_menu_visibility' => 1,
+    'nofollow' => 0,
+    'expandnodeadd' => 1,
+  );
+  $export['quickbar_settings_section-manager'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'quickbar_use_machine_names';
+  $strongarm->value = 1;
+  $export['quickbar_use_machine_names'] = $strongarm;
 
   return $export;
 }

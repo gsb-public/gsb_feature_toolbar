@@ -86,25 +86,6 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => 'admin/workbench',
   );
-  // Exported menu link: menu-marketing:admin/workbench/create
-  $uuid_menu_links['menu-marketing:admin/workbench/create'] = array(
-    'router_path' => 'admin/workbench/create',
-    'link_title' => 'Add Content',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 0,
-    'uuid_link_path' => 'admin/workbench/create',
-    'uuid_menu_name' => 'menu-marketing',
-    'uuid_parent_path' => NULL,
-  );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $uuid_menu_links['menu-section-editor-toolbar:<front>'] = array(
     'router_path' => '',
@@ -180,25 +161,6 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_link_path' => 'admin/workbench/content/edited',
     'uuid_menu_name' => 'menu-section-editor-toolbar',
     'uuid_parent_path' => 'admin/workbench',
-  );
-  // Exported menu link: menu-section-editor-toolbar:admin/workbench/create
-  $uuid_menu_links['menu-section-editor-toolbar:admin/workbench/create'] = array(
-    'router_path' => 'admin/workbench/create',
-    'link_title' => 'Add Content',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -48,
-    'uuid_link_path' => 'admin/workbench/create',
-    'uuid_menu_name' => 'menu-section-editor-toolbar',
-    'uuid_parent_path' => NULL,
   );
   // Exported menu link: menu-section-manager-toolbar:<front>
   $uuid_menu_links['menu-section-manager-toolbar:<front>'] = array(
@@ -295,28 +257,8 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-section-manager-toolbar',
     'uuid_parent_path' => 'admin/workbench',
   );
-  // Exported menu link: menu-section-manager-toolbar:admin/workbench/create
-  $uuid_menu_links['menu-section-manager-toolbar:admin/workbench/create'] = array(
-    'router_path' => 'admin/workbench/create',
-    'link_title' => 'Add Content',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -48,
-    'uuid_link_path' => 'admin/workbench/create',
-    'uuid_menu_name' => 'menu-section-manager-toolbar',
-    'uuid_parent_path' => NULL,
-  );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Add Content');
   t('All Recent Content');
   t('Home');
   t('Manage Menus');
