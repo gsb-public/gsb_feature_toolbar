@@ -29,6 +29,25 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
+  // Exported menu link: menu-marketing:admin/structure/menu
+  $uuid_menu_links['menu-marketing:admin/structure/menu'] = array(
+    'router_path' => 'admin/structure/menu',
+    'link_title' => 'Manage Menus',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'uuid_link_path' => 'admin/structure/menu',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
   // Exported menu link: menu-marketing:admin/workbench
   $uuid_menu_links['menu-marketing:admin/workbench'] = array(
     'router_path' => 'admin/workbench',

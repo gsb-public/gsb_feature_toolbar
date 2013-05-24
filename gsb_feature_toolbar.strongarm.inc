@@ -54,7 +54,10 @@ function gsb_feature_toolbar_strongarm() {
     'float' => 0,
     'secondary_menu_visibility' => 1,
     'nofollow' => 0,
-    'expandnodeadd' => 1,
+    'expanded_items' => array(
+      'expand_node_add' => 1,
+      'expand_structure_menu' => 1,
+    ),
   );
   $export['quickbar_settings_marketing_admin'] = $strongarm;
 

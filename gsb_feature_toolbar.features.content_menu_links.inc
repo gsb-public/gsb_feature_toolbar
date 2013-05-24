@@ -28,6 +28,24 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -50,
   );
+  // Exported menu link: menu-marketing:admin/structure/menu
+  $menu_links['menu-marketing:admin/structure/menu'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/menu',
+    'router_path' => 'admin/structure/menu',
+    'link_title' => 'Manage Menus',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+  );
   // Exported menu link: menu-marketing:admin/workbench
   $menu_links['menu-marketing:admin/workbench'] = array(
     'menu_name' => 'menu-marketing',
@@ -100,7 +118,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -48,
   );
   // Exported menu link: menu-marketing:user/logout
   $menu_links['menu-marketing:user/logout'] = array(
@@ -118,7 +136,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -46,
   );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $menu_links['menu-section-editor-toolbar:<front>'] = array(
