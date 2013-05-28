@@ -130,6 +130,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
       'attributes' => array(
         'title' => '',
       ),
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -240,6 +241,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
       'attributes' => array(
         'title' => '',
       ),
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -368,6 +370,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
       'attributes' => array(
         'title' => '',
       ),
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
