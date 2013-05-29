@@ -46,6 +46,24 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -47,
   );
+  // Exported menu link: menu-marketing:admin/structure/mini-panels
+  $menu_links['menu-marketing:admin/structure/mini-panels'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/mini-panels',
+    'router_path' => 'admin/structure/mini-panels',
+    'link_title' => 'Mini Panels',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+  );
   // Exported menu link: menu-marketing:admin/workbench
   $menu_links['menu-marketing:admin/workbench'] = array(
     'menu_name' => 'menu-marketing',
@@ -137,7 +155,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
   );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $menu_links['menu-section-editor-toolbar:<front>'] = array(
@@ -386,6 +404,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
   t('Home');
   t('Logout');
   t('Manage Menus');
+  t('Mini Panels');
   t('My Edits');
   t('My Workbench');
 

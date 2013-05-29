@@ -48,6 +48,25 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
+  // Exported menu link: menu-marketing:admin/structure/mini-panels
+  $uuid_menu_links['menu-marketing:admin/structure/mini-panels'] = array(
+    'router_path' => 'admin/structure/mini-panels',
+    'link_title' => 'Mini Panels',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'uuid_link_path' => 'admin/structure/mini-panels',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
   // Exported menu link: menu-marketing:admin/workbench
   $uuid_menu_links['menu-marketing:admin/workbench'] = array(
     'router_path' => 'admin/workbench',
@@ -281,6 +300,7 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
   t('All Recent Content');
   t('Home');
   t('Manage Menus');
+  t('Mini Panels');
   t('My Edits');
   t('My Workbench');
 
