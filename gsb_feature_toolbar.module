@@ -5,3 +5,30 @@
  */
 
 include_once 'gsb_feature_toolbar.features.inc';
+
+/**
+ * Implements hook_menu().
+ */
+function gsb_feature_toolbar_menu() {
+
+  $items['toolbar/manage-homepage'] = array(
+    'title' => 'Manage Home Page',
+    'page callback' => 'gsb_feature_toolbar_manage_homepage_page',
+    'access callback' => TRUE,
+    'file' => 'gsb_feature_toolbar.pages.inc',
+  );
+
+  return $items;
+}  
+
+/**
+ * Implements hook_theme().
+ */
+function gsb_feature_toolbar_theme() {
+  return array(
+    'gsb_feature_toolbar_homepage_list' => array(
+      'variables' => array('content' => NULL),
+      'file' => 'gsb_feature_toolbar.pages.inc',
+    ),
+  );
+}
