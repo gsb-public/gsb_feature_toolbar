@@ -83,3 +83,10 @@ features[variable][] = quickbar_settings_section-editor
 features[variable][] = quickbar_settings_section-manager
 features[variable][] = quickbar_use_machine_names
 features_exclude[dependencies][defaultcontent] = defaultcontent
+
+
+; Information added by drush on 2013-07-16
+version = "WP-1866-dev"
+project = "gsb_feature_toolbar"
+datestamp = "1373998398"
+

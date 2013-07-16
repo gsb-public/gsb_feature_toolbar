@@ -11,12 +11,22 @@
  * @see gsb_feature_toolbar_menu()
  */
 function gsb_feature_toolbar_manage_homepage_page() {
-  
-  $item = menu_get_item();
-  dpm($item);
-  $content = system_admin_menu_block($item);
-  dpm($content);
-  return theme('gsb_feature_toolbar_homepage_list', array('content' => $content));
+
+  $menu_trail = menu_set_active_trail();
+
+  $path = $menu_trail[1]['href'];
+  $parent = menu_link_get_preferred($path);
+  $parameters = array(
+      'active_trail' => array($parent['plid']),
+      'only_active_trail' => FALSE,
+      'min_depth' => $parent['depth']+1,
+      'max_depth' => $parent['depth']+1,
+      'conditions' => array('plid' => $parent['mlid']),
+    );
+
+  $children = menu_build_tree($parent['menu_name'], $parameters);
+
+  return theme('gsb_feature_toolbar_homepage_list', array('content' => $children));
 
 } 
 
@@ -25,7 +35,7 @@ function gsb_feature_toolbar_manage_homepage_page() {
  *
  * @param $variables
  *   An associative array containing:
- *   - content: An array of content types.
+ *   - content: An array of home page items.
  *
  * @ingroup themeable
  */
@@ -35,16 +45,18 @@ function theme_gsb_feature_toolbar_homepage_list($variables) {
   $output = '';
 
   if ($content) {
-    $output = '<dl class="node-type-list">';
+    $output = '<dl class="hompage-list-item">';
     foreach ($content as $item) {
-      $output .= '<dt>' . l($item['title'], $item['href'], $item['localized_options']) . '</dt>';
-      $output .= '<dd>' . filter_xss_admin($item['description']) . '</dd>';
+      $link = $item['link'];
+      $output .= '<dt>' . l($link['link_title'], $link['href'], $link['localized_options']) . '</dt>';
+      $output .= '<dd>' . filter_xss_admin($link['description']) . '</dd>';
     }
     $output .= '</dl>';
   }
   else {
-    $output = '<p>' . t('You have not created any content types yet. Go to the <a href="@create-content">content type creation page</a> to add a new content type.', array('@create-content' => url('admin/structure/types/add'))) . '</p>';
+    $output = '<p>' . 'You do not have permission to manage the Home page items' . '</p>';
   }
+
   return $output;
 }
 
