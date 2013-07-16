@@ -29,6 +29,44 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
+  // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit
+  $uuid_menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit'] = array(
+    'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
+    'link_title' => 'Slideshow',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'uuid_link_path' => 'admin/structure/fieldable-panels-panes/view/3036/edit',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content',
+  );
+  // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3041/edit
+  $uuid_menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3041/edit'] = array(
+    'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
+    'link_title' => 'Image CTA',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'uuid_link_path' => 'admin/structure/fieldable-panels-panes/view/3041/edit',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content',
+  );
   // Exported menu link: menu-marketing:admin/structure/menu
   $uuid_menu_links['menu-marketing:admin/structure/menu'] = array(
     'router_path' => 'admin/structure/menu',
@@ -62,8 +100,27 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
     'uuid_link_path' => 'admin/structure/mini-panels',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
+  );
+  // Exported menu link: menu-marketing:admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content
+  $uuid_menu_links['menu-marketing:admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content'] = array(
+    'router_path' => 'admin/structure/pages/%/operation/%',
+    'link_title' => 'Manage Home Page',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -46,
+    'uuid_link_path' => 'admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content',
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
@@ -299,10 +356,13 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('All Recent Content');
   t('Home');
+  t('Image CTA');
+  t('Manage Home Page');
   t('Manage Menus');
   t('Mini Panels');
   t('My Edits');
   t('My Workbench');
+  t('Slideshow');
 
 
   return $uuid_menu_links;

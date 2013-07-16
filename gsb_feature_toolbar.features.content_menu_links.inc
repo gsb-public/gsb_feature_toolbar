@@ -62,7 +62,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
   );
   // Exported menu link: menu-marketing:admin/workbench
   $menu_links['menu-marketing:admin/workbench'] = array(
@@ -155,7 +155,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => -44,
   );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $menu_links['menu-section-editor-toolbar:<front>'] = array(
