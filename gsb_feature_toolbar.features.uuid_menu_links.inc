@@ -120,7 +120,7 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'has_children' => 1,
     'expanded' => 0,
     'weight' => -46,
-    'uuid_link_path' => 'admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content',
+    'uuid_link_path' => 'toolbar/manage-homepage',
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
