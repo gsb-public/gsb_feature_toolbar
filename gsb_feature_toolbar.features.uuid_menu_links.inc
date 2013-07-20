@@ -29,6 +29,63 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/11/configure
+  $uuid_menu_links['menu-marketing:admin/structure/block/manage/block/11/configure'] = array(
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Alumni News',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'uuid_link_path' => 'admin/structure/block/manage/block/11/configure',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/16/configure
+  $uuid_menu_links['menu-marketing:admin/structure/block/manage/block/16/configure'] = array(
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Impact of Giving',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'uuid_link_path' => 'admin/structure/block/manage/block/16/configure',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/6/configure
+  $uuid_menu_links['menu-marketing:admin/structure/block/manage/block/6/configure'] = array(
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Latest Articles',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'uuid_link_path' => 'admin/structure/block/manage/block/6/configure',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => 'toolbar/manage-homepage',
+  );
   // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit
   $uuid_menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit'] = array(
     'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
@@ -105,25 +162,6 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => NULL,
   );
-  // Exported menu link: menu-marketing:admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content
-  $uuid_menu_links['menu-marketing:admin/structure/pages/nojs/operation/page-home_page/handlers/page_home_page_panel_context/content'] = array(
-    'router_path' => 'admin/structure/pages/%/operation/%',
-    'link_title' => 'Manage Home Page',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -46,
-    'uuid_link_path' => 'toolbar/manage-homepage',
-    'uuid_menu_name' => 'menu-marketing',
-    'uuid_parent_path' => NULL,
-  );
   // Exported menu link: menu-marketing:admin/workbench
   $uuid_menu_links['menu-marketing:admin/workbench'] = array(
     'router_path' => 'admin/workbench',
@@ -180,6 +218,25 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
     'uuid_link_path' => 'admin/workbench/content/edited',
     'uuid_menu_name' => 'menu-marketing',
     'uuid_parent_path' => 'admin/workbench',
+  );
+  // Exported menu link: menu-marketing:toolbar/manage-homepage
+  $uuid_menu_links['menu-marketing:toolbar/manage-homepage'] = array(
+    'router_path' => 'admin/structure/pages/%/operation/%',
+    'link_title' => 'Manage Home Page',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -46,
+    'uuid_link_path' => 'toolbar/manage-homepage',
+    'uuid_menu_name' => 'menu-marketing',
+    'uuid_parent_path' => NULL,
   );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $uuid_menu_links['menu-section-editor-toolbar:<front>'] = array(
@@ -355,8 +412,11 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('All Recent Content');
+  t('Alumni News');
   t('Home');
   t('Image CTA');
+  t('Impact of Giving');
+  t('Latest Articles');
   t('Manage Home Page');
   t('Manage Menus');
   t('Mini Panels');

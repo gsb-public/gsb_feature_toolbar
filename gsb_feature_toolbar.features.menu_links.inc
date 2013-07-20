@@ -28,6 +28,101 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
   );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/11/configure
+  $menu_links['menu-marketing:admin/structure/block/manage/block/11/configure'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/block/manage/block/11/configure',
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Alumni News',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/16/configure
+  $menu_links['menu-marketing:admin/structure/block/manage/block/16/configure'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/block/manage/block/16/configure',
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Impact of Giving',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/block/manage/block/6/configure
+  $menu_links['menu-marketing:admin/structure/block/manage/block/6/configure'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/block/manage/block/6/configure',
+    'router_path' => 'admin/structure/block/manage/%/%/configure',
+    'link_title' => 'Latest Articles',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit
+  $menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/fieldable-panels-panes/view/3036/edit',
+    'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
+    'link_title' => 'Slideshow',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'parent_path' => 'toolbar/manage-homepage',
+  );
+  // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3041/edit
+  $menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3041/edit'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/fieldable-panels-panes/view/3041/edit',
+    'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
+    'link_title' => 'Image CTA',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'parent_path' => 'toolbar/manage-homepage',
+  );
   // Exported menu link: menu-marketing:admin/structure/menu
   $menu_links['menu-marketing:admin/structure/menu'] = array(
     'menu_name' => 'menu-marketing',
@@ -137,6 +232,24 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
+  );
+  // Exported menu link: menu-marketing:toolbar/manage-homepage
+  $menu_links['menu-marketing:toolbar/manage-homepage'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'toolbar/manage-homepage',
+    'router_path' => 'admin/structure/pages/%/operation/%',
+    'link_title' => 'Manage Home Page',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -46,
   );
   // Exported menu link: menu-marketing:user/logout
   $menu_links['menu-marketing:user/logout'] = array(
@@ -401,12 +514,18 @@ function gsb_feature_toolbar_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Add Content');
   t('All Recent Content');
+  t('Alumni News');
   t('Home');
+  t('Image CTA');
+  t('Impact of Giving');
+  t('Latest Articles');
   t('Logout');
+  t('Manage Home Page');
   t('Manage Menus');
   t('Mini Panels');
   t('My Edits');
   t('My Workbench');
+  t('Slideshow');
 
 
   return $menu_links;
