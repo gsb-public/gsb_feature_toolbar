@@ -251,11 +251,11 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -46,
   );
-  // Exported menu link: menu-marketing:user/logout
-  $menu_links['menu-marketing:user/logout'] = array(
+  // Exported menu link: menu-marketing:saml-logout
+  $menu_links['menu-marketing:saml-logout'] = array(
     'menu_name' => 'menu-marketing',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
+    'link_path' => 'saml-logout',
+    'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
       'attributes' => array(
@@ -362,11 +362,11 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -48,
   );
-  // Exported menu link: menu-section-editor-toolbar:user/logout
-  $menu_links['menu-section-editor-toolbar:user/logout'] = array(
+  // Exported menu link: menu-section-editor-toolbar:saml-logout
+  $menu_links['menu-section-editor-toolbar:saml-logout'] = array(
     'menu_name' => 'menu-section-editor-toolbar',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
+    'link_path' => 'saml-logout',
+    'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
       'attributes' => array(
@@ -491,11 +491,11 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -48,
   );
-  // Exported menu link: menu-section-manager-toolbar:user/logout
-  $menu_links['menu-section-manager-toolbar:user/logout'] = array(
+  // Exported menu link: menu-section-manager-toolbar:saml-logout
+  $menu_links['menu-section-manager-toolbar:saml-logout'] = array(
     'menu_name' => 'menu-section-manager-toolbar',
-    'link_path' => 'user/logout',
-    'router_path' => 'user/logout',
+    'link_path' => 'saml-logout',
+    'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
       'attributes' => array(
