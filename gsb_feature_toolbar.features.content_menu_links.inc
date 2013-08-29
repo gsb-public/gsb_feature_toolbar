@@ -237,7 +237,7 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
   $menu_links['menu-marketing:toolbar/manage-homepage'] = array(
     'menu_name' => 'menu-marketing',
     'link_path' => 'toolbar/manage-homepage',
-    'router_path' => 'admin/structure/pages/%/operation/%',
+    'router_path' => 'toolbar/manage-homepage',
     'link_title' => 'Manage Home Page',
     'options' => array(
       'attributes' => array(

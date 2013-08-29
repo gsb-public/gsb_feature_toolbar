@@ -221,7 +221,7 @@ function gsb_feature_toolbar_uuid_menu_default_menu_links() {
   );
   // Exported menu link: menu-marketing:toolbar/manage-homepage
   $uuid_menu_links['menu-marketing:toolbar/manage-homepage'] = array(
-    'router_path' => 'admin/structure/pages/%/operation/%',
+    'router_path' => 'toolbar/manage-homepage',
     'link_title' => 'Manage Home Page',
     'options' => array(
       'attributes' => array(
