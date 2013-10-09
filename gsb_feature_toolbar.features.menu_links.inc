@@ -17,9 +17,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Home',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -35,9 +33,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/block/manage/%/%/configure',
     'link_title' => 'Alumni News',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -54,9 +50,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/block/manage/%/%/configure',
     'link_title' => 'Impact of Giving',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -73,9 +67,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/block/manage/%/%/configure',
     'link_title' => 'Latest Articles',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -92,9 +84,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
     'link_title' => 'Slideshow',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -111,9 +101,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
     'link_title' => 'Image CTA',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -130,9 +118,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/menu',
     'link_title' => 'Manage Menus',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -148,9 +134,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/mini-panels',
     'link_title' => 'Mini Panels',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -166,9 +150,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench',
     'link_title' => 'My Workbench',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -184,9 +166,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/all',
     'link_title' => 'All Recent Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -203,9 +183,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/edited',
     'link_title' => 'My Edits',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -222,9 +200,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'node/add',
     'link_title' => 'Add Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -233,24 +209,6 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
   );
-  // Exported menu link: menu-marketing:toolbar/manage-homepage
-  $menu_links['menu-marketing:toolbar/manage-homepage'] = array(
-    'menu_name' => 'menu-marketing',
-    'link_path' => 'toolbar/manage-homepage',
-    'router_path' => 'toolbar/manage-homepage',
-    'link_title' => 'Manage Home Page',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => -46,
-  );
   // Exported menu link: menu-marketing:saml-logout
   $menu_links['menu-marketing:saml-logout'] = array(
     'menu_name' => 'menu-marketing',
@@ -258,9 +216,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'alter' => TRUE,
     ),
     'module' => 'menu',
@@ -270,6 +226,22 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -44,
   );
+  // Exported menu link: menu-marketing:toolbar/manage-homepage
+  $menu_links['menu-marketing:toolbar/manage-homepage'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'toolbar/manage-homepage',
+    'router_path' => 'toolbar/manage-homepage',
+    'link_title' => 'Manage Home Page',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -46,
+  );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $menu_links['menu-section-editor-toolbar:<front>'] = array(
     'menu_name' => 'menu-section-editor-toolbar',
@@ -277,9 +249,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Home',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -295,9 +265,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench',
     'link_title' => 'My Workbench',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -313,9 +281,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/all',
     'link_title' => 'All Recent Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -332,9 +298,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/edited',
     'link_title' => 'My Edits',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -351,9 +315,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'node/add',
     'link_title' => 'Add Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -369,9 +331,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'alter' => TRUE,
     ),
     'module' => 'menu',
@@ -388,9 +348,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Home',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -406,9 +364,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/structure/menu',
     'link_title' => 'Manage Menus',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -424,9 +380,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench',
     'link_title' => 'My Workbench',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -442,9 +396,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/all',
     'link_title' => 'All Recent Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -461,9 +413,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'admin/workbench/content/edited',
     'link_title' => 'My Edits',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -480,9 +430,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'node/add',
     'link_title' => 'Add Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -498,9 +446,7 @@ function gsb_feature_toolbar_menu_default_menu_links() {
     'router_path' => 'saml-logout',
     'link_title' => 'Logout',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'alter' => TRUE,
     ),
     'module' => 'menu',
