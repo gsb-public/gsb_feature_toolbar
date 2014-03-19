@@ -10,41 +10,6 @@
 function gsb_feature_toolbar_content_menu_links_defaults() {
   $menu_links = array();
 
-  // Exported menu link: menu-faculty-administration:<front>
-  $menu_links['menu-faculty-administration:<front>'] = array(
-    'menu_name' => 'menu-faculty-administration',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Home',
-    'options' => array(
-      'attributes' => array(),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-faculty-administration:saml-logout
-  $menu_links['menu-faculty-administration:saml-logout'] = array(
-    'menu_name' => 'menu-faculty-administration',
-    'link_path' => 'saml-logout',
-    'router_path' => 'saml-logout',
-    'link_title' => 'Logout',
-    'options' => array(
-      'attributes' => array(),
-      'alter' => TRUE,
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-marketing:<front>
   $menu_links['menu-marketing:<front>'] = array(
     'menu_name' => 'menu-marketing',
