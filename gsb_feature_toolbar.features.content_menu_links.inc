@@ -27,6 +27,77 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'weight' => -50,
     'customized' => 0,
   );
+  // Exported menu link: menu-marketing:admin/config/gsb
+  $menu_links['menu-marketing:admin/config/gsb'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/config/gsb',
+    'router_path' => 'admin/config/gsb',
+    'link_title' => 'Site Configuration',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-marketing:admin/config/gsb/connecting-link
+  $menu_links['menu-marketing:admin/config/gsb/connecting-link'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/config/gsb/connecting-link',
+    'router_path' => 'admin/config/gsb/connecting-link',
+    'link_title' => 'Connecting Links',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_path' => 'admin/config/gsb',
+  );
+  // Exported menu link: menu-marketing:admin/config/gsb/fpp-xray
+  $menu_links['menu-marketing:admin/config/gsb/fpp-xray'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/config/gsb/fpp-xray',
+    'router_path' => 'admin/config/gsb/fpp-xray',
+    'link_title' => 'FPP X-Ray',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_path' => 'admin/config/gsb',
+  );
+  // Exported menu link: menu-marketing:admin/config/gsb/insights
+  $menu_links['menu-marketing:admin/config/gsb/insights'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/config/gsb/insights',
+    'router_path' => 'admin/config/gsb/insights',
+    'link_title' => 'Insights',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_path' => 'admin/config/gsb',
+  );
   // Exported menu link: menu-marketing:admin/structure/block/manage/block/11/configure
   $menu_links['menu-marketing:admin/structure/block/manage/block/11/configure'] = array(
     'menu_name' => 'menu-marketing',
@@ -78,24 +149,6 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
-    'customized' => 0,
-    'parent_path' => 'toolbar/manage-homepage',
-  );
-  // Exported menu link: menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit
-  $menu_links['menu-marketing:admin/structure/fieldable-panels-panes/view/3036/edit'] = array(
-    'menu_name' => 'menu-marketing',
-    'link_path' => 'admin/structure/fieldable-panels-panes/view/3036/edit',
-    'router_path' => 'admin/structure/fieldable-panels-panes/view/%/edit',
-    'link_title' => 'Slideshow',
-    'options' => array(
-      'attributes' => array(),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
     'customized' => 0,
     'parent_path' => 'toolbar/manage-homepage',
   );
@@ -236,8 +289,8 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
-    'customized' => 0,
+    'weight' => -43,
+    'customized' => 1,
   );
   // Exported menu link: menu-marketing:toolbar/manage-homepage
   $menu_links['menu-marketing:toolbar/manage-homepage'] = array(
@@ -255,6 +308,24 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -46,
     'customized' => 0,
+  );
+  // Exported menu link: menu-marketing_pr-contacts:admin/structure/taxonomy/pr_contact
+  $menu_links['menu-marketing_pr-contacts:admin/structure/taxonomy/pr_contact'] = array(
+    'menu_name' => 'menu-marketing',
+    'link_path' => 'admin/structure/taxonomy/pr_contact',
+    'router_path' => 'admin/structure/taxonomy/%',
+    'link_title' => 'PR Contacts',
+    'options' => array(
+      'attributes' => array(),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_path' => 'admin/config/gsb',
   );
   // Exported menu link: menu-section-editor-toolbar:<front>
   $menu_links['menu-section-editor-toolbar:<front>'] = array(
@@ -488,9 +559,12 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
   t('Add Content');
   t('All Recent Content');
   t('Alumni News');
+  t('Connecting Links');
+  t('FPP X-Ray');
   t('Home');
   t('Image CTA');
   t('Impact of Giving');
+  t('Insights');
   t('Latest Articles');
   t('Logout');
   t('Manage Home Page');
@@ -498,7 +572,8 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
   t('Mini Panels');
   t('My Edits');
   t('My Workbench');
-  t('Slideshow');
+  t('PR Contacts');
+  t('Site Configuration');
 
 
   return $menu_links;
