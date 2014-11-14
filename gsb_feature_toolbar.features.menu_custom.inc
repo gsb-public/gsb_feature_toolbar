@@ -13,7 +13,7 @@ function gsb_feature_toolbar_menu_default_menu_custom() {
   // Exported menu: menu-marketing.
   $menus['menu-marketing'] = array(
     'menu_name' => 'menu-marketing',
-    'title' => 'Marketing',
+    'title' => 'Author Menu: Marketing',
     'description' => '',
   );
   // Exported menu: menu-section-editor-toolbar.
@@ -30,7 +30,7 @@ function gsb_feature_toolbar_menu_default_menu_custom() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Marketing');
+  t('Author Menu: Marketing');
   t('Section Editor');
   t('Section Manager');
 
