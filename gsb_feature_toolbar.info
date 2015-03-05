@@ -33,7 +33,6 @@ features[content_menu_links][] = menu-section-editor-toolbar:admin/workbench
 features[content_menu_links][] = menu-section-editor-toolbar:admin/workbench/content/all
 features[content_menu_links][] = menu-section-editor-toolbar:admin/workbench/content/edited
 features[content_menu_links][] = menu-section-editor-toolbar:node/add
-features[content_menu_links][] = menu-section-editor-toolbar:saml-logout
 features[content_menu_links][] = menu-section-manager-toolbar:<front>
 features[content_menu_links][] = menu-section-manager-toolbar:admin/structure/menu
 features[content_menu_links][] = menu-section-manager-toolbar:admin/workbench

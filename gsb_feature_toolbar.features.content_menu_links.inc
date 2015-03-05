@@ -414,24 +414,6 @@ function gsb_feature_toolbar_content_menu_links_defaults() {
     'weight' => -48,
     'customized' => 0,
   );
-  // Exported menu link: menu-section-editor-toolbar:saml-logout
-  $menu_links['menu-section-editor-toolbar:saml-logout'] = array(
-    'menu_name' => 'menu-section-editor-toolbar',
-    'link_path' => 'saml-logout',
-    'router_path' => 'saml-logout',
-    'link_title' => 'Logout',
-    'options' => array(
-      'attributes' => array(),
-      'alter' => TRUE,
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 0,
-  );
   // Exported menu link: menu-section-manager-toolbar:<front>
   $menu_links['menu-section-manager-toolbar:<front>'] = array(
     'menu_name' => 'menu-section-manager-toolbar',

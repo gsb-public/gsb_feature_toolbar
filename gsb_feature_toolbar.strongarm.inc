@@ -19,7 +19,7 @@ function gsb_feature_toolbar_strongarm() {
     'authenticated-user' => '0',
     'administrator' => '0',
     'editor' => '0',
-    'section-editor' => 'menu-section-editor-toolbar',
+    'events' => '0',
     'section-manager' => 'menu-section-manager-toolbar',
     'marketing_admin' => 'menu-marketing',
     'fa' => 'menu-section-editor-toolbar',
@@ -28,6 +28,7 @@ function gsb_feature_toolbar_strongarm() {
     'cwo_admin' => '0',
     'marketing:12396' => '0',
     'mba:12401' => '0',
+    'alumnipg' => '0',
     'msx:12406' => '0',
     'phd:12481' => '0',
     'alumni:13071' => '0',
@@ -48,6 +49,12 @@ function gsb_feature_toolbar_strongarm() {
     'research-fellows:13146' => '0',
     'behavioral-lab:13186' => '0',
     'rail:13191' => '0',
+    'companies-&-recruiters:26671' => '0',
+    'insights:27251' => '0',
+    'insight-topics:27256' => '0',
+    'nongsbreg:28606' => '0',
+    'help:29781' => '0',
+    'alumni-help:29781' => '0',
   );
   $export['quickbar_role_menus'] = $strongarm;
 
@@ -60,7 +67,7 @@ function gsb_feature_toolbar_strongarm() {
     'authenticated-user' => '-3',
     'administrator' => '-1',
     'editor' => '10',
-    'section-editor' => '-8',
+    'events' => '0',
     'section-manager' => '-9',
     'marketing_admin' => '-10',
     'fa' => '-6',
@@ -69,6 +76,7 @@ function gsb_feature_toolbar_strongarm() {
     'cwo_admin' => '-4',
     'marketing:12396' => '10',
     'mba:12401' => '10',
+    'alumnipg' => '0',
     'msx:12406' => '10',
     'phd:12481' => '10',
     'alumni:13071' => '10',
@@ -89,6 +97,12 @@ function gsb_feature_toolbar_strongarm() {
     'research-fellows:13146' => '9',
     'behavioral-lab:13186' => '8',
     'rail:13191' => '6',
+    'companies-&-recruiters:26671' => '0',
+    'insights:27251' => '0',
+    'insight-topics:27256' => '0',
+    'nongsbreg:28606' => '0',
+    'help:29781' => '0',
+    'alumni-help:29781' => '0',
   );
   $export['quickbar_role_weights'] = $strongarm;
 
