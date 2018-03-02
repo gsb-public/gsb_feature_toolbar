@@ -55,4 +55,3 @@ features[variable][] = quickbar_settings_section-editor
 features[variable][] = quickbar_settings_section-manager
 features[variable][] = quickbar_use_machine_names
 features_exclude[dependencies][defaultcontent] = defaultcontent
-mtime = 1416933716

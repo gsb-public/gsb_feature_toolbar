@@ -34,6 +34,5 @@ function gsb_feature_toolbar_menu_default_menu_custom() {
   t('Author Menu: Section Editor');
   t('Author Menu: Section Manager');
 
-
   return $menus;
 }
