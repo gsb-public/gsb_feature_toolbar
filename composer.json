@@ -1,5 +1,5 @@
 {
-  "name": "drupal/gsb_feature_toolbar",
+  "name": "gsb/gsb_feature_toolbar",
   "description": "GSB Feature Toolbar",
   "license": "Apache-2.0",  
   "require": {
